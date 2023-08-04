@@ -9,12 +9,21 @@ section:nth-child(1){
     width: 50%;
 }
 section:nth-child(2){
+    box-sizing: border-box;
     width: 70%;
     background-color: black;
     border-radius: 15px;
-    padding: 50px;
+    padding: 80px;
+    position: relative;
+    /* left: 50%;
+    transform: translate(-50%); */
 }
+/* div{
+    position: relative;
+    box-sizing: border-box;
+} */
 article{
+    box-sizing: border-box;
     width: 70%;
     margin: 0 auto;
     background-color: orange;
@@ -49,8 +58,10 @@ article p{
     color: white;
     margin: 0;
 }
-div{
-    display: inline;
+.button{
+    position: absolute;
+    bottom: 10%;
+    margin-top: 24px;
 }
 button{
     color: white;
@@ -60,6 +71,7 @@ button{
     font-size: 24px;
     margin-top: 24px;
     margin-right: 20px;
+    margin-bottom: 16px;
 }
 button:first-of-type{
     background-color: rgb(235, 91, 39);
