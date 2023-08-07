@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+section{
+    margin: 0 auto;
+    text-align: center;
+}
+section:nth-child(1){
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+section:nth-child(2){
+    box-sizing: border-box;
+    
+}
+article{
+    position: absolute;
+    width: 100vw;
+    background-color: black;
+    height: 250px;
+}
+article p{
+    position: relative;
+    background-color: rgb(0, 89, 255);
+    padding: 24px;
+    top: 30%;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    display: inline-block;
+    margin: 24px;
+    padding: 16px;
+    text-align: center;
+    background-color:rgb(0, 89, 255);
+    font-size: 30px;
+    width: 50%;
+}
+p{
+    box-sizing: border-box;
+    text-align: justify;
+    margin: 0 25%;
+    font-size: 24px;
+    font-weight: 700;
+}
+span{
+    background-color: rgb(0, 89, 255);
+    text-transform: uppercase;
+    padding: 8px;
+    
+}
+div{
+    box-sizing: border-box;
+    padding: 24px;
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 16px;
+}
+button:first-of-type{
+    background-color: rgb(7, 218, 120);
+}
+button:last-of-type{
+    background-color: rgb(0, 89, 255);
+}
