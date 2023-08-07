@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Libre Baskerville', serif;
+    margin: 0;
 }
 section{
     margin: 0 auto;
@@ -22,16 +23,16 @@ section:nth-child(2){
     
 }
 article{
-    position: absolute;
-    width: 100vw;
+    
     background-color: black;
     height: 250px;
 }
 article p{
-    position: relative;
     background-color: rgb(0, 89, 255);
     padding: 24px;
-    top: 30%;
+    margin: 0;
+    text-align: center;
+    
 }
 h1{
     font-size: 60px;
@@ -65,6 +66,7 @@ span{
 div{
     box-sizing: border-box;
     padding: 24px;
+    
     
 }
 button{

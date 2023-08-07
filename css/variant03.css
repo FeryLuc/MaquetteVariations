@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+section:first-child{
+    background-color: red;
+    
+}
+section:nth-child(2){
+    background-color: gold;
+}
+h1{
+    
+    background-color: blue;
+    padding: 24px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+h2{
+    text-align: justify;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+    text-align: left;
+    margin: 24px;
+    padding-left: 24px;
+}
+article{
+    background-color: green;
+}
